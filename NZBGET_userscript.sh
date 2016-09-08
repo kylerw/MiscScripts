@@ -42,6 +42,6 @@ pip install qtfaststart
 # test if updates have been disabled
 [ "$ADVANCED_DISABLEUPDATES" ] && exit 0
 
-cd /config/mp4
+cd /mp4automator
 git pull
 chown -R abc:abc /config
