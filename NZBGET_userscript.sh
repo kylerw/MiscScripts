@@ -24,7 +24,7 @@ pip install 'guessit<2'
 pip install 'subliminal<2'
 pip install stevedore
 pip install python-dateutil
-pip install deluge-client
+# pip install deluge-client
 pip install qtfaststart
 
 
