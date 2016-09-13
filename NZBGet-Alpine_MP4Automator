@@ -5,12 +5,12 @@
 apk update
 apk upgrade
 
-easy_install pip
-
 apk add git
 apk add ffmpeg
 
 curl https://bootstrap.pypa.io/ez_setup.py -o - | python
+easy_install pip
+
 
 pip install requests 
 pip install requests[security]			###???
